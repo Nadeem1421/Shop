@@ -10,7 +10,8 @@ const productslist = () => {
           key={product.id} 
           title={product.name}
            price={product.price}
-          img={product.image}/>
+          img={product.image}
+          category= {product.category}/>
       )
     }
       { /*  <Productcard title="Brushed Raglan Sweatshirt" price={195} img={P1}/>
