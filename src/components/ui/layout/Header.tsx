@@ -6,15 +6,15 @@ const Header = () => {
     return(
         <div className="flex justify-between items-center py-6 px-8">
            <Image src={logo} alt="Dine Market" className="w-40"/>
-           <ul className="flex gap-x-12 ">
+           <ul className="flex gap-x-12">
                 <li className="text-lg">
-                    <Link href={"/"}>Female</Link>                
+                    <Link href={"/category/Female"}>Female</Link>                
                 </li>
                 <li className="text-lg"> 
-                    <Link href={"/"}>Male</Link>
+                    <Link href={"/category/Male"}>Male</Link>
                 </li>
                 <li className="text-lg">
-                    <Link href={"/"}>Kids</Link>
+                    <Link href={"/category/Kids"}>Kids</Link>
                 </li>
                 <li className="text-lg">
                     <Link href={"/products"}>All Products</Link>
