@@ -8,16 +8,15 @@ export default function page({params}:{params:{slug:string}}){
     const result = getproductsbycategory(params.slug);
     return(
         <div className="flex justify-evenly mt-16 py-10  flex-wrap">
-            {
-      result.map((product)=>
+           {result.length>0 ? result.map((product)=>
       <Productcard 
           key={product.id} 
           title={product.name}
            price={product.price}
           img={product.image}
           category={product.category}/>
-          )
-        }
+          ) : (<p>No products found</p>)
+          }
         </div>
     )
 }
