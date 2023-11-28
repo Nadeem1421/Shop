@@ -8,13 +8,13 @@ const Header = () => {
            <Image src={logo} alt="Dine Market" className="w-40"/>
            <ul className="flex gap-x-12">
                 <li className="text-lg">
-                    <Link href={"/category/Female"}>Female</Link>                
+                    <Link href={"/category/female"}>Female</Link>                
                 </li>
                 <li className="text-lg"> 
-                    <Link href={"/category/Male"}>Male</Link>
+                    <Link href={"/category/male"}>Male</Link>
                 </li>
                 <li className="text-lg">
-                    <Link href={"/category/Kids"}>Kids</Link>
+                    <Link href={"/category/kids"}>Kids</Link>
                 </li>
                 <li className="text-lg">
                     <Link href={"/products"}>All Products</Link>
