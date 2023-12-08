@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
             {/* Right div */}
             <div className="flex-1  ">
-                <Image src={heroImage} alt='hero' className="rounded-full bg-green-600 flex justify-center items-center"/>
+                <Image src={heroImage} alt='hero' className="rounded-full bg-blue-600 flex justify-center items-center"/>
             </div>
        </section>
 
